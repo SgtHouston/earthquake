@@ -247,7 +247,7 @@ require([
 }
 
     // erathquake API fetch to get data
-    fetch('https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2021-07-07&limit=60')
+    fetch('https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&limit=60')
         .then((res) => {
             return res.json();
         })
